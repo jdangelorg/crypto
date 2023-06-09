@@ -1,4 +1,9 @@
 # ignore packages installed by npm
 node_modules
+#ignore testing files
+__tests__
+coverage
+integration-tests
 # put any other files you don't want to check in here, such as .DS_Store
 # (OSX), *.bak, etc.
+.eslintrc.js
